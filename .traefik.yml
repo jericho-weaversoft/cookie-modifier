@@ -1,0 +1,18 @@
+# .traefik.yml
+displayName: "Cookie Modifier"
+summary: "Transforms cookie names and sets dynamic domains for request/response cookies"
+type: "middleware"
+import: "github.com/your-username/traefik-cookie-modifier"
+compatibility:
+  - "3.0.x"
+  - "3.1.x"
+
+testData:
+  sourceCookieName: "flowise_token"
+  targetCookieName: "simple_token"
+  useDynamicDomain: true
+  secure: false
+  httpOnly: false
+  sameSite: "Lax"
+  path: "/"
+  debug: true
