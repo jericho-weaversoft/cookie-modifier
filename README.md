@@ -32,5 +32,5 @@ A Traefik middleware plugin that transforms cookie names and dynamically sets co
 experimental:
   plugins:
     cookie-modifier:
-      moduleName: "github.com/your-username/traefik-cookie-modifier"
+      moduleName: "github.com/jericho-weaversoft/cookie-modifier"
       version: "v1.0.0"

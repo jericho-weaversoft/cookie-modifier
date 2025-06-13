@@ -2,7 +2,7 @@
 displayName: "Cookie Modifier"
 summary: "Transforms cookie names and sets dynamic domains for request/response cookies"
 type: "middleware"
-import: "github.com/your-username/traefik-cookie-modifier"
+import: "github.com/jericho-weaversoft/cookie-modifier"
 compatibility:
   - "3.0.x"
   - "3.1.x"
