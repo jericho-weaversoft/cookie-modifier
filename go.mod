@@ -1,4 +1,4 @@
 // go.mod
-module github.com/your-username/traefik-cookie-modifier
+module github.com/jericho-weaversoft/cookie-modifier
 
 go 1.21
